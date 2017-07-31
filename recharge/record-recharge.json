@@ -1,0 +1,24 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "rechargeTime": 12321323,
+      "serviceType": "服务类型",
+      "userAccount": "yxxxx",
+      "gid": "g3423423",
+      "rechargeCardNumber": "P12312323",
+      "orderNumber": "sad12421312",
+      "orderAmount": 300,
+      "amountPaid": 123,
+      "cardName": "水晶月卡",
+      "cardPrice": 20,
+      "presentGoldCoins": 10000,
+      "prepaidGoldCoins": 200,
+      "rechargeAddress": "192.168.1.1",
+      "operationUser": "admin"
+    }
+  ]
+}

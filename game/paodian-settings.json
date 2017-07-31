@@ -1,0 +1,21 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "roomName": "积分房间",
+      "presentObject": "普通会员,蓝钻,黄钻",
+      "gameUnitValue": 0,
+      "gameUnitTime": 0,
+      "gameStartTime": 0,
+      "onlineUnitValue": 0,
+      "onlineUnitTime": 0,
+      "onlineStartTime": 0,
+      "gameState": 0,
+      "onlineState": 0,
+      "collectionTime": 123213232
+    }
+  ]
+}

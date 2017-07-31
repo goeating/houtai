@@ -1,0 +1,21 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "account": "feng.com",
+      "game": "守望先锋",
+      "romm": "1区",
+      "beforeGold": 1,
+      "afterGold": 1,
+      "beforeGlamour": 0,
+      "point": 3,
+      "proportion": 3000,
+      "place": 4000,
+      "address": "28.23.12.32",
+      "time": 123213213
+    }
+  ]
+}

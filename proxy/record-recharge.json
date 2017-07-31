@@ -1,0 +1,23 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "uid": "12s212",
+      "superiorId": "1232",
+      "commodityType": "你猜",
+      "commodityId": "321321",
+      "commodityQuantity": 123,
+      "itemPricing": 123,
+      "actualPayment": 232,
+      "orderNumber": "2z12312",
+      "paymentPlatformOrderNumber": "das123",
+      "paymentType": "支付类型",
+      "orderGenerationTime": 123123123,
+      "orderPaymentCompletionTime": 1232132132,
+      "paymentStatus": 0,
+      "orderStatus": 1
+    }
+  ]
+}

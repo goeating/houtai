@@ -1,0 +1,15 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "gameId": 27,
+      "gameName": "牛哄哄",
+      "newDate": 123,
+      "modificationDate": 231,
+      "disabledState": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "associatedOrderId": "u12s212",
+      "proxyId": "x1232",
+      "royaltyRatio": "20%",
+      "actualAmount": 123,
+      "royalty": 123,
+      "proxyLevel": 123,
+      "directlyUnder": 0,
+      "orderGenerationTime": 12312323232
+    }
+  ]
+}

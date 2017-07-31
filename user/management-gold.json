@@ -1,0 +1,33 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "gid": 1232132,
+      "account": "feng.com",
+      "nickname": "李四",
+      "goldNumber": 1000,
+      "bankNumber": 10000,
+      "goldAndBank": 20000,
+      "medal": 999,
+      "convertedGlamour": 100,
+      "glamour": 200,
+      "ex": 10000,
+      "tax": 200,
+      "total": 3,
+      "win": 1,
+      "lost": 1,
+      "tied": 1,
+      "escape": 0,
+      "loginNumber": 3,
+      "gameTime": 3000,
+      "onlineTime": 4000,
+      "game": "王者荣耀",
+      "room": "1区",
+      "lastTime": 123213213,
+      "lastAddress": "28.23.12.32"
+    }
+  ]
+}

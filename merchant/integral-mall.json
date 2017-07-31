@@ -1,0 +1,24 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "commodityType": "sh371057",
+      "img": "http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg",
+      "commodityName": "苹果6",
+      "marketPrice": 6000,
+      "exchangeType": "积分",
+      "conversionPrice": 2000,
+      "vipConversionPrice": 1999,
+      "salesVolume": 100,
+      "inventory": 2,
+      "alertInventory": 2,
+      "auditStatus": "审核通过",
+      "shelves": true,
+      "updateTime": 123123891239,
+      "note": "呵呵呵"
+    }
+  ]
+}

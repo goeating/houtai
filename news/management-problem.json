@@ -1,0 +1,14 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "problemTitle": "dsa",
+      "newDate": 312,
+      "modificationDate": 123,
+      "disabledState": 1
+    }
+  ]
+}

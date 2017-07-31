@@ -1,0 +1,19 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "gameId": 27,
+      "gameName": "牛哄哄",
+      "gameType": "牌类游戏",
+      "parentNode": "",
+      "sort": 100,
+      "processName": "OxNew.exe",
+      "regularPath": "",
+      "downloadPath": "",
+      "disabledState": 1
+    }
+  ]
+}

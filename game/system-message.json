@@ -1,0 +1,16 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "startTime": 13224323423,
+      "endTime": 4324234343,
+      "messageRange": "",
+      "messageContent": "",
+      "frequency": 100,
+      "prohibitedSign": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "roomId": 1,
+      "roomName": "房间名称",
+      "gameName": "牛哄哄",
+      "nodeName": "无挂接",
+      "sort": 100,
+      "moduleName": "模块名称",
+      "tableQuantity": 2,
+      "roomType": "房间类型",
+      "servicePort": 22,
+      "databaseName": "数据库名称",
+      "databaseAddress": "数据库地址",
+      "unitIntegral": 12,
+      "taxProportion": "税收比例",
+      "restrictedIntegral": 22,
+      "minimumIntegral": 22,
+      "minimumAccessIntegral": 1,
+      "maximumEntryPoints": 3,
+      "minimumEntryLevel": 1,
+      "maximumEntryLevel": 3,
+      "maximumNumber": 11,
+      "roomRules": "房间规则",
+      "runningMachine": "运行机器",
+      "frozenState": 1,
+      "creationTime": 12321323232,
+      "modificationTime": 11231232232
+    }
+  ]
+}

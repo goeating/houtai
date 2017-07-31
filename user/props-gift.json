@@ -1,0 +1,21 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "propName": "牛逼的道具",
+      "useAccount": "feng.com",
+      "toAccount": "qq.com",
+      "useGlamour": 2,
+      "toGlamour": 3,
+      "pice": 20,
+      "num": 1,
+      "game": "暗黑3",
+      "room": "联通2",
+      "time": 1232132,
+      "address": "28.23.12.32"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "loginName": "sh371057",
+      "merchantName": "sh371057",
+      "customerType": "商户管理员",
+      "tel": 371057,
+      "phone": 371058,
+      "integral": 0.00,
+      "order": 0
+    }
+  ]
+}

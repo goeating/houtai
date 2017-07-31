@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8"/>
+    <title>平台管理后台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Preview page of Metronic Admin Theme #1 for statistics, charts, recent events and reports"
+          name="description"/>
+    <meta content="" name="author"/>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+          type="text/css"/>
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet"
+          type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet"
+          type="text/css"/>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
+    <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="../assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="../assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<!-- END HEAD -->
+
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+<div class="page-wrapper">
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top">
+        <!-- BEGIN HEADER INNER -->
+        <div class="page-header-inner ">
+            <!-- BEGIN LOGO -->
+            <div class="page-logo">
+                <a href="index.html">
+                    <img src="../assets/layouts/layout/img/logo.png" alt="logo" class="logo-default"/> </a>
+                <div class="menu-toggler sidebar-toggler">
+                    <span></span>
+                </div>
+            </div>
+            <!-- END LOGO -->
+            <!-- BEGIN HEADER SEARCH BOX -->
+            <form class="search-form search-form-expanded" action="page_general_search_2.html" method="GET">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索..." name="query">
+                    <span class="input-group-btn">
+                        <a href="javascript:;" class="btn submit">
+                            <i class="icon-magnifier"></i>
+                        </a>
+                    </span>
+                </div>
+            </form>
+            <!-- END HEADER SEARCH BOX -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse"
+               data-target=".navbar-collapse">
+                <span></span>
+            </a>
+            <!-- END RESPONSIVE MENU TOGGLER -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="top-menu">
+                <ul class="nav navbar-nav pull-right">
+                    <!-- BEGIN NOTIFICATION DROPDOWN -->
+                    <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                           data-close-others="true">
+                            <i class="icon-bell"></i>
+                            <span class="badge badge-default"> 7 </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="external">
+                                <h3>
+                                    <span class="bold">12个未读</span> 通知</h3>
+                                <a href="page_user_profile_1.html">显示全部</a>
+                            </li>
+                            <li>
+                                <ul class="dropdown-menu-list scroller" style="height: 250px;"
+                                    data-handle-color="#637283">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">刚刚</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-success">
+                                                            <i class="fa fa-plus"></i>
+                                                        </span> 注册新用户 </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">3 分钟前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </span> Server #12 overloaded. </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">10 分钟前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-warning">
+                                                            <i class="fa fa-bell-o"></i>
+                                                        </span> Server #2 not responding. </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">14 小时前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-info">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </span> 应用程序错误 </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">2 天前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </span> 数据库超载68% </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">3 天前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </span>用户IP阻塞 </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">4 天前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-warning">
+                                                            <i class="fa fa-bell-o"></i>
+                                                        </span> Storage Server #4 not responding dfdfdfd. </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">5 天前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-info">
+                                                            <i class="fa fa-bullhorn"></i>
+                                                        </span> 系统错误 </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="time">9 天前</span>
+                                            <span class="details">
+                                                        <span class="label label-sm label-icon label-danger">
+                                                            <i class="fa fa-bolt"></i>
+                                                        </span> 存储服务器失败 </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END NOTIFICATION DROPDOWN -->
+
+                    <!-- BEGIN USER LOGIN DROPDOWN -->
+                    <li class="dropdown dropdown-user">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                           data-close-others="true">
+                            <img alt="" class="img-circle" src="../assets/layouts/layout/img/avatar3_small.jpg"/>
+                            <span class="username username-hide-on-mobile"> Admin </span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-default">
+                            <li>
+                                <a href="../system/my-info.html">
+                                    <i class="icon-user"></i> 我的个人信息 </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="../login/lock.html">
+                                    <i class="icon-lock"></i> 锁屏 </a>
+                            </li>
+                            <li>
+                                <a href="../login/login.html">
+                                    <i class="icon-key"></i> 注销 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END USER LOGIN DROPDOWN -->
+                </ul>
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END HEADER INNER -->
+    </div>
+    <!-- END HEADER -->
+    <!-- BEGIN HEADER & CONTENT DIVIDER -->
+    <div class="clearfix"></div>
+    <!-- END HEADER & CONTENT DIVIDER -->
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <div class="page-sidebar-wrapper">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar navbar-collapse collapse">
+                <!-- BEGIN SIDEBAR MENU -->
+                <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true"
+                    data-slide-speed="200">
+                    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                    <li class="sidebar-toggler-wrapper hide">
+                        <div class="sidebar-toggler">
+                            <span></span>
+                        </div>
+                    </li>
+                    <!-- END SIDEBAR TOGGLER BUTTON -->
+                    <li class="nav-item start active open">
+                        <a href="./index.html" class="nav-link nav-toggle">
+                            <i class="icon-home"></i>
+                            <span class="title">首页</span>
+                        </a>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">玩家系统</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-ghost"></i>
+                            <span class="title">玩家管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../user/user.html" class="nav-link ">
+                                    <span class="title">玩家列表</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <span class="title">限制用户</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="../user/limit-name.html" class="nav-link ">
+                                            <span class="title">限制用户名</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="../user/limit-ip.html" class="nav-link ">
+                                            <span class="title">限制IP地址</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="../user/limit-code.html" class="nav-link ">
+                                            <span class="title">限制机器码</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-ghost"></i>
+                            <span class="title">活动记录</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../user/record-task.html" class="nav-link ">
+                                    <span class="title">任务完成记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/record-draw.html" class="nav-link ">
+                                    <span class="title">抽奖记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/record-attendance.html" class="nav-link ">
+                                    <span class="title">签到记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/record-activity.html" class="nav-link ">
+                                    <span class="title">活动完成记录</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-ghost"></i>
+                            <span class="title">充值记录</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../user/record-online.html" class="nav-link ">
+                                    <span class="title">线上充值记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/record-offline.html" class="nav-link ">
+                                    <span class="title">线下充值记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/record-bank.html" class="nav-link ">
+                                    <span class="title">银行记录</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle ">
+                            <i class="icon-ghost"></i>
+                            <span class="title">资产管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../user/management-gold.html" class="nav-link ">
+                                    <span class="title">金币管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/management-integral.html" class="nav-link ">
+                                    <span class="title">积分管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/management-glamour.html" class="nav-link ">
+                                    <span class="title">魅力管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/management-medal.html" class="nav-link ">
+                                    <span class="title">奖牌管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle ">
+                            <i class="icon-ghost"></i>
+                            <span class="title">道具购买记录</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../user/props-ordinary.html" class="nav-link ">
+                                    <span class="title">普通道具</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../user/props-gift.html" class="nav-link ">
+                                    <span class="title">礼物道具</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">商户系统</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">商户信息</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../merchant/management-merchant.html" class="nav-link ">
+                                    <span class="title">商户管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">商品信息</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../merchant/commodity-type.html" class="nav-link ">
+                                    <span class="title">商品类型维护</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../merchant/integral-mall.html" class="nav-link ">
+                                    <span class="title">积分商城管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">订单管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../merchant/commodity-exchange.html" class="nav-link ">
+                                    <span class="title">商品兑换记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../merchant/management-integral.html" class="nav-link ">
+                                    <span class="title">积分管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../merchant/integral-lifting.html" class="nav-link ">
+                                    <span class="title">积分提现审核</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">充值系统</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-credit-card"></i>
+                            <span class="title">实卡管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../recharge/membership-management.html" class="nav-link ">
+                                    <span class="title">会员卡管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../recharge/membership-type.html" class="nav-link ">
+                                    <span class="title">类型管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../recharge/record-recharge.html" class="nav-link">
+                            <i class="icon-credit-card"></i>
+                            <span class="title">充值记录</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../recharge/management-order.html" class="nav-link">
+                            <i class="icon-credit-card"></i>
+                            <span class="title">订单管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-credit-card"></i>
+                            <span class="title">支付管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../recharge/payment-method.html" class="nav-link ">
+                                    <span class="title">支付方式</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../recharge/record-transaction.html" class="nav-link ">
+                                    <span class="title">交易记录</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">代理系统</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">代理信息</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../proxy/management-proxy.html" class="nav-link ">
+                                    <span class="title">代理管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">代理业绩</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../proxy/record-recharge.html" class="nav-link ">
+                                    <span class="title">充值记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../proxy/record-royalty.html" class="nav-link ">
+                                    <span class="title">提成分配记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../proxy/record-purchase.html" class="nav-link ">
+                                    <span class="title">代理购买记录</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../proxy/record-offline.html" class="nav-link ">
+                                    <span class="title">线下销售记录</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">游戏管理</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/management-server.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">服务器管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">游戏管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../game/game-modul.html" class="nav-link ">
+                                    <span class="title">模块</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../game/game-type.html" class="nav-link ">
+                                    <span class="title">类型</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../game/game-games.html" class="nav-link ">
+                                    <span class="title">游戏</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../game/game-node.html" class="nav-link ">
+                                    <span class="title">节点</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../game/game-custom.html" class="nav-link">
+                                    <span class="title">自定义</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/management-room.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">房间管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/system-message.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">系统消息</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/game-settings.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">游戏系统设置</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/paodian-settings.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">泡点设置</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">推广管理</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../game/promotion-management.html" class="nav-link ">
+                                    <span class="title">推广管理</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../game/promotion-details.html" class="nav-link ">
+                                    <span class="title">推广明细</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../game/financial-details.html" class="nav-link ">
+                                    <span class="title">财务明细</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../game/management-prop.html" class="nav-link">
+                            <i class="icon-game-controller"></i>
+                            <span class="title">道具管理</span>
+                        </a>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">内容管理</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/game-news.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">游戏公告</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/management-news.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">新闻管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/management-rule.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">规则管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/management-problem.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">问题管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/management-match.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">比赛管理</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../news/management-feedback.html" class="nav-link">
+                            <i class="icon-layers"></i>
+                            <span class="title">回馈管理</span>
+                        </a>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">统计中心</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../statistics/statistics-user.html" class="nav-link">
+                            <i class="icon-bar-chart"></i>
+                            <span class="title">玩家统计</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-bar-chart"></i>
+                            <span class="title">资产统计</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../statistics/statistics-gold.html" class="nav-link ">
+                                    <span class="title">金币统计</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../statistics/statistics-give.html" class="nav-link ">
+                                    <span class="title">赠送统计</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../statistics/statistics-glamour.html" class="nav-link ">
+                                    <span class="title">魅力统计</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../statistics/statistics-tax.html" class="nav-link ">
+                                    <span class="title">税收统计</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../statistics/statistics-consumption.html" class="nav-link">
+                                    <span class="title">耗损统计</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../statistics/statistics-card.html" class="nav-link">
+                                    <span class="title">点卡统计</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../statistics/statistics-card-inventory.html" class="nav-link">
+                            <i class="icon-bar-chart"></i>
+                            <span class="title">实卡库存统计</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../statistics/statistics-proxy.html" class="nav-link">
+                            <i class="icon-bar-chart"></i>
+                            <span class="title">代理统计</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="../statistics/statistics-online.html" class="nav-link">
+                            <i class="icon-bar-chart"></i>
+                            <span class="title">游戏在线统计</span>
+                        </a>
+                    </li>
+                    <li class="heading">
+                        <h3 class="uppercase">系统</h3>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-settings"></i>
+                            <span class="title">系统设置</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <span class="title">管理员管理</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="../system/management-role.html" class="nav-link ">
+                                            <span class="title">角色管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="../system/management-user.html" class="nav-link ">
+                                            <span class="title">用户管理</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../system/system-settings.html" class="nav-link ">
+                                    <span class="title">系统设置</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-feed"></i>
+                            <span class="title">操作日志</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../system/log.html" class="nav-link ">
+                                    <span class="title">安全日志</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- END SIDEBAR MENU -->
+                <!-- END SIDEBAR MENU -->
+            </div>
+            <!-- END SIDEBAR -->
+        </div>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN CONTENT -->
+        <div class="page-content-wrapper">
+            <!-- BEGIN CONTENT BODY -->
+            <div class="page-content">
+                <!-- BEGIN PAGE HEADER-->
+                <!-- BEGIN PAGE BAR -->
+                <div class="page-bar">
+                    <ul class="page-breadcrumb">
+                        <li>
+                            <span>首页</span>
+                            <!--<a href="index.html">首页</a>-->
+                            <!--<i class="fa fa-circle"></i>-->
+                        </li>
+                    </ul>
+                </div>
+                <!-- END PAGE BAR -->
+                <!-- BEGIN PAGE TITLE-->
+                <h1 class="page-title"> 数据统计
+                </h1>
+                <!-- END PAGE TITLE-->
+                <!-- END PAGE HEADER-->
+                <!-- BEGIN DASHBOARD STATS 1-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <a class="dashboard-stat dashboard-stat-v2 green" href="#">
+                            <div class="visual">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <div class="details">
+                                <div class="number">
+                                    <span data-counter="counterup" data-value="1000">0</span>
+                                </div>
+                                <div class="desc"> 活跃玩家</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <a class="dashboard-stat dashboard-stat-v2 yellow" href="#">
+                            <div class="visual">
+                                <i class="fa fa-user-plus"></i>
+                            </div>
+                            <div class="details">
+                                <div class="number"> +
+                                    <span data-counter="counterup" data-value="100">0</span>
+                                </div>
+                                <div class="desc"> 新增玩家</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <a class="dashboard-stat dashboard-stat-v2 red" href="#">
+                            <div class="visual">
+                                <i class="fa fa-user-secret"></i>
+                            </div>
+                            <div class="details">
+                                <div class="number"> +
+                                    <span data-counter="counterup" data-value="549">0</span>
+                                </div>
+                                <div class="desc"> 新增代理</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <a class="dashboard-stat dashboard-stat-v2 blue" href="#">
+                            <div class="visual">
+                                <i class="fa fa-cny"></i>
+                            </div>
+                            <div class="details">
+                                <div class="number">
+                                    <span data-counter="counterup" data-value="20000"></span>
+                                </div>
+                                <div class="desc"> 购买总额</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <a class="dashboard-stat dashboard-stat-v2 purple" href="#">
+                            <div class="visual">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <div class="details">
+                                <div class="number">
+                                    <span data-counter="counterup" data-value="100"></span>
+                                </div>
+                                <div class="desc"> 购买单数</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <!-- END DASHBOARD STATS 1-->
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 col-sm-12">
+                        <!-- BEGIN PORTLET-->
+                        <div class="portlet light bordered">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <span class="caption-subject font-dark bold uppercase">玩家活跃量</span>
+                                </div>
+                            </div>
+                            <div class="portlet-body">
+                                <!--<div id="site_statistics_loading">-->
+                                <!--<img src="./assets/global/img/loading.gif" alt="loading" />-->
+                                <!--</div>-->
+                                <!--class="display-none"-->
+                                <div id="site_statistics_content">
+                                    <div id="player_activity" class="chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END PORTLET-->
+                    </div>
+                    <div class="col-lg-6 col-xs-12 col-sm-12">
+                        <!-- BEGIN PORTLET-->
+                        <div class="portlet light bordered">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="icon-share font-red-sunglo hide"></i>
+                                    <span class="caption-subject font-dark bold uppercase">Revenue</span>
+                                    <span class="caption-helper">monthly stats...</span>
+                                </div>
+                                <div class="actions">
+                                    <div class="btn-group">
+                                        <a href="" class="btn dark btn-outline btn-circle btn-sm dropdown-toggle"
+                                           data-toggle="dropdown" data-hover="dropdown" data-close-others="true"> Filter
+                                            Range
+                                            <span class="fa fa-angle-down"> </span>
+                                        </a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li>
+                                                <a href="javascript:;"> Q1 2014
+                                                    <span class="label label-sm label-default"> past </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;"> Q2 2014
+                                                    <span class="label label-sm label-default"> past </span>
+                                                </a>
+                                            </li>
+                                            <li class="active">
+                                                <a href="javascript:;"> Q3 2014
+                                                    <span class="label label-sm label-success"> current </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;"> Q4 2014
+                                                    <span class="label label-sm label-warning"> upcoming </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portlet-body">
+                                <div id="site_activities_loading">
+                                    <img src="../assets/global/img/loading.gif" alt="loading"/></div>
+                                <div id="site_activities_content" class="display-none">
+                                    <div id="site_activities" style="height: 228px;"></div>
+                                </div>
+                                <div style="margin: 20px 0 10px 30px">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3 col-xs-6 text-stat">
+                                            <span class="label label-sm label-success"> Revenue: </span>
+                                            <h3>$13,234</h3>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xs-6 text-stat">
+                                            <span class="label label-sm label-info"> Tax: </span>
+                                            <h3>$134,900</h3>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xs-6 text-stat">
+                                            <span class="label label-sm label-danger"> Shipment: </span>
+                                            <h3>$1,134</h3>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xs-6 text-stat">
+                                            <span class="label label-sm label-warning"> Orders: </span>
+                                            <h3>235090</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END PORTLET-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">试运行公共告</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>尊敬的享玩合伙人：</p>
+                                <p>平台终于在万众期待中步入试运营，我们将秉承享玩的初衷和理念，与每一位合伙人共同开启一场颠覆式&bull;创业革命。坚信在这场时代的机遇里，行业的风口上，每位享玩人都能通过自身的努力，实现自己人生的蜕变！</p>
+                                <p>当然，作为一家新平台，我们具备十足的优势，同时也有相对的不足。望大家具有主人翁的精神，对待问题积极反馈，理解与包容！公司将逐步对平台进行整体优化以及各地游戏上新！</p>
+                                <p>每一位参与试运营的家人，您已把握了行业的绝对先机！坚信在不久的未来，您将见证公司的成长与您人生的传奇蜕变，加油！我们巅峰相约！</p>
+                                <p>享玩提示：：严禁利用平台赌博，违背享玩理念，违反国家法律，否则一切后果自负。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- END CONTENT BODY -->
+        </div>
+        <!-- END CONTENT -->
+    </div>
+    <!-- END CONTAINER -->
+    <!-- BEGIN FOOTER -->
+    <div class="page-footer">
+        <div class="page-footer-inner"> 2016 &copy; Metronic Theme By
+            <a target="_blank" href="http://keenthemes.com">Keenthemes</a> &nbsp;|&nbsp;
+            <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+               title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase
+                Metronic!</a>
+        </div>
+        <div class="scroll-to-top">
+            <i class="icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+</div>
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<script src="../assets/global/plugins/ie8.fix.min.js"></script>
+<![endif]-->
+<!-- BEGIN CORE PLUGINS -->
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="../assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/echarts/echarts.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN THEME GLOBAL SCRIPTS -->
+<script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+<!-- END THEME GLOBAL SCRIPTS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../assets/pages/common/echart-init.js" type="text/javascript"></script>
+<script src="../assets/pages/scripts/index.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<!-- BEGIN THEME LAYOUT SCRIPTS -->
+<script src="../assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+<script src="../assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+<script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+<!-- END THEME LAYOUT SCRIPTS -->
+</body>
+
+</html>

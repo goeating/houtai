@@ -1,0 +1,21 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "cardNumber": "P17061256118171",
+      "cardName": "水晶月卡",
+      "cardPrice": 10,
+      "presentGoldCoins": 100000,
+      "membershipLevel": "蓝钻",
+      "membershipDays": 30,
+      "expirationDate": 123,
+      "rechargeDate": 0,
+      "rangeOfUse": "全部用户",
+      "seller": "",
+      "disabledState": 1
+    }
+  ]
+}

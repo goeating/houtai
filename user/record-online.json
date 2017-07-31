@@ -1,0 +1,24 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "uid": "u1232321",
+      "sid": "s123456789",
+      "type": "不知道",
+      "cid": "1234567890",
+      "number": 100,
+      "price": 100,
+      "pay": 90,
+      "orderNumber": "345678",
+      "payNumber": "1232132",
+      "orderType": "不知道",
+      "time": 123232323,
+      "payTime": 123213232,
+      "payStatus": 0,
+      "orderStatus": 0
+    }
+  ]
+}

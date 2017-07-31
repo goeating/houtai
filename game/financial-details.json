@@ -1,0 +1,17 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "collectionDate": 1232132323223,
+      "accounts": "g1232323",
+      "income": 10,
+      "expenditure": 123,
+      "type": "类型",
+      "popularizedPerson": "被推广人",
+      "collectRemarks": "收集备注"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "uid": "u1232321",
+      "gid": "12",
+      "type": "不知道",
+      "amount": 8,
+      "vType": "不知道",
+      "orderNumber": "345678",
+      "time": 1232132,
+      "name": "NB",
+      "note": "123"
+    }
+  ]
+}

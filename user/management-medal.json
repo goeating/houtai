@@ -1,0 +1,19 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "time": 123213213,
+      "account": "feng.com",
+      "medal": 1,
+      "beforeMedal": 2,
+      "beforeGold": 1,
+      "afterGold": 1,
+      "proportion": 3000,
+      "place": 0,
+      "address": "28.23.12.32"
+    }
+  ]
+}

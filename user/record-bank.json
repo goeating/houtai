@@ -1,0 +1,25 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "time": 1232132,
+      "remitter": "张三",
+      "payee": "李四",
+      "type": "不知道",
+      "remitterNumber": 10000,
+      "remitterBank": "中国银行",
+      "payeeNuber": 999,
+      "payeeBank": "建设银行",
+      "gold": 200,
+      "serviceCharge": 100,
+      "place": "不知道",
+      "address": "不知道",
+      "game": "王者荣耀",
+      "room": "01房",
+      "note": "呵呵"
+    }
+  ]
+}

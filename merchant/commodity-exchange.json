@@ -1,0 +1,30 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "uid": 231232,
+      "superiorId": 12321,
+      "commodityType": 0,
+      "commodityId": "1b21e20807be4a0d906924f7817f22d7",
+      "tradeName": "苹果6",
+      "number": 23,
+      "pice": 6000,
+      "paymentType": 1003,
+      "payment": 1000,
+      "order": "jf1000039201703141825574869a8",
+      "additionalPaymentType": "",
+      "additionalPaymentAmount": 0,
+      "orderGenerationTime": 12321323,
+      "orderPaymentCompletionTime": 123123891239,
+      "personalGoods": "系统管理员",
+      "paymentStatus": 0,
+      "orderGenerationType": 1,
+      "distributionStatus": 0,
+      "orderStatus": 0,
+      "orderDescription": "呵呵呵",
+      "extract": true
+    }
+  ]
+}

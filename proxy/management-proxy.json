@@ -1,0 +1,24 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "agentId": "12s212",
+      "superiorId": "1232",
+      "invitationCode": "123123",
+      "proxyLevel": "1",
+      "playerNumber": 123,
+      "proxyNumber": 123,
+      "login": 0,
+      "nickname": "dsad",
+      "loginName": "das123",
+      "phone": 18834884588,
+      "lastLogonTime": 123123123,
+      "registrationTime": 1232132132,
+      "surplusGold": 123213,
+      "remainingDiamond": 123
+    }
+  ]
+}

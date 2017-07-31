@@ -1,0 +1,22 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "gid": 1232132,
+      "account": "feng.com",
+      "integral": 1000,
+      "win": 1,
+      "lost": 1,
+      "tied": 1,
+      "escape": 0,
+      "loginNumber": 3,
+      "gameTime": 3000,
+      "onlineTime": 4000,
+      "lastTime": 123213213,
+      "lastAddress": "28.23.12.32"
+    }
+  ]
+}

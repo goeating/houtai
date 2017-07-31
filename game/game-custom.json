@@ -1,0 +1,18 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "pageIdentification": 1,
+      "pageName": "",
+      "gameName": "牛哄哄",
+      "nodeName": "无挂接",
+      "operationType": "操作类型1",
+      "sort": 100,
+      "resourcePath": "",
+      "disabledState": 1
+    }
+  ]
+}

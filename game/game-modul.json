@@ -1,0 +1,16 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "moduleIdentification": 27,
+      "moduleName": "牛哄哄",
+      "serviceVersion": "6.6.0.3",
+      "clientVersion": "6.6.0.3",
+      "databaseName": "QPTreasureDB",
+      "databaseAddress": "127.0.0.1"
+    }
+  ]
+}

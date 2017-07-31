@@ -1,0 +1,16 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "nodeIdentifier": 1,
+      "nodeName": "",
+      "gameName": "牛哄哄",
+      "hanging": "无挂接",
+      "sort": 100,
+      "disabledState": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "uid": "u12s212",
+      "gid": "x1232",
+      "accountType": "账户类型",
+      "increasingDecrement": 123,
+      "typesOfVariation": "增减类型",
+      "associatedSingleNumber": "x123213",
+      "changeTime": 1231232320,
+      "changeOriginator": "xxxxx",
+      "describe": ""
+    }
+  ]
+}

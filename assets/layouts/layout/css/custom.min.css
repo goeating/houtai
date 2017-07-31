@@ -1,0 +1,21 @@
+.table-checkable tr.parent > td:first-child, .table-checkable tr.parent > th:first-child {
+    text-align: center;
+    max-width: 50px;
+    min-width: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.table-checkable tr.child > td:first-child, .table-checkable tr.child > th:first-child {
+    text-align: inherit;
+    padding: 8px 10px;
+}
+h3 .mt-checkbox{
+    margin-bottom: 0;
+    line-height: 1.42857;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child, table.dataTable.dtr-inline.collapsed>thead>tr>th:first-child{
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}

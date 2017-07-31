@@ -1,0 +1,19 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "name": "汽车",
+      "cashPrice": 0,
+      "goldPrice": 1500,
+      "discountPrice": 90,
+      "issueScope": "商城道具,游戏道具,房间道具",
+      "rangeOfUse": "自己范围,玩家范围,旁观范围",
+      "giftGlamour": 0,
+      "acceptingGlamour": 0,
+      "state": 1
+    }
+  ]
+}

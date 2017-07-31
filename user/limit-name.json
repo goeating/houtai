@@ -1,0 +1,13 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "character": "1111",
+      "failureTime": 123456789,
+      "entryTime": 123456789
+    }
+  ]
+}

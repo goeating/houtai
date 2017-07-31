@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "productType": "商品",
+    "productCode": 100000,
+    "sort": 10,
+    "note": "",
+    "ParentId": null,
+    "Level": 1
+  },
+  {
+    "id": 2,
+    "productType": "数码产品",
+    "productCode": 110000,
+    "sort": 10,
+    "note": "",
+    "ParentId": 1,
+    "Level": 2
+  },
+  {
+    "id": 3,
+    "productType": "手机",
+    "productCode": 110101,
+    "sort": 10,
+    "note": "",
+    "ParentId": 2,
+    "Level": 3
+  },
+  {
+    "id": 4,
+    "productType": "电脑",
+    "productCode": 110104,
+    "sort": 20,
+    "note": "",
+    "ParentId": 2,
+    "Level": 3
+  },
+  {
+    "id": 5,
+    "productType": "食品",
+    "productCode": 130000,
+    "sort": 5,
+    "note": "",
+    "ParentId": 4,
+    "Level": 4
+  },
+  {
+    "id": 6,
+    "productType": " 小吃",
+    "productCode": 130000,
+    "sort": 5,
+    "note": "",
+    "ParentId": 5,
+    "Level": 5
+  },
+  {
+    "id": 7,
+    "productType": " 小吃2",
+    "productCode": 130000,
+    "sort": 5,
+    "note": "",
+    "ParentId": 5,
+    "Level": 5
+  }
+]

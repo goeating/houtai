@@ -1,0 +1,14 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "accounts": "ux123",
+      "gameId": "g1232323",
+      "contributionGold": 10,
+      "recommendedTime": 12321323232
+    }
+  ]
+}

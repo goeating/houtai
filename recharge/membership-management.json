@@ -1,0 +1,21 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "productionBatch": 1,
+      "dateGenerated": 123213232,
+      "administrators": "admin",
+      "seller": "",
+      "cardName": "水晶月卡",
+      "cardQuantity": 11,
+      "cardPrice": 1232,
+      "totalAmount": 10000,
+      "presentGoldCoins": 100,
+      "address": "192.168.0.117",
+      "exportTimes": 12,
+      "note": "hehe"
+    }
+  ]
+}

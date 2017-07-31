@@ -1,0 +1,14 @@
+{
+  "draw": 1,
+  "recordsTotal": 1,
+  "recordsFiltered": 1,
+  "data": [
+    {
+      "id": 0,
+      "serverName": "",
+      "address": "127.0.0.1",
+      "port": 1433,
+      "machineCode": ""
+    }
+  ]
+}
